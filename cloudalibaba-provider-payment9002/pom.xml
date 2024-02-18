@@ -9,7 +9,13 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>cloudalibaba-provider-payment9011</artifactId>
+    <artifactId>cloudalibaba-provider-payment9002</artifactId>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <dependencies>
         <!--SpringCloud ailibaba nacos -->
@@ -45,4 +51,3 @@
         </dependency>
     </dependencies>
 </project>
-

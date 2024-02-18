@@ -1,4 +1,4 @@
-package this0.com;
+package com.this0.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,8 +10,8 @@ public class PaymentController {
     @Value("${server.port}")
     private String serverPort;
 
-    @GetMapping(  "/payment/nacos/{id}")
+    @GetMapping(value = "/payment/{id}")
     public String getPayment(@PathVariable("id") Integer id) {
-        return "nacos成功注册,服务端口: " + serverPort + "\t id：" + id;
+        return "nacos registry, serverPort: " + serverPort + "\t id" + id;
     }
 }
