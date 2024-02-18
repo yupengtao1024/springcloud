@@ -12,10 +12,10 @@
     <description>springcloud</description>
     <modules>
         <module>cloudalibaba-provider-payment9001</module>
-        <module>cloudalibaba-provider-payment9011</module>
         <module>cloudalibaba-consumer-nacos-order83</module>
         <module>cloudalibaba-provider-payment9002</module>
         <module>cloudalibaba-config-nacos-client3377</module>
+        <module>cloud-gateway-gateway9527</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
