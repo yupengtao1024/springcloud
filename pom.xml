@@ -12,6 +12,7 @@
     <description>springcloud</description>
     <modules>
         <module>cloudalibaba-provider-payment9001</module>
+        <module>cloudalibaba-provider-payment9011</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
